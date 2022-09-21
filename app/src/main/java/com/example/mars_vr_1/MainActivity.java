@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
     fragment_mypage mypageFragment;
     fragment_lisence_f lisencefront;
     fragment_schedule scheduleFragment;
+    fragment_webview webviewFragment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
         mypageFragment = new fragment_mypage();
         lisencefront = new fragment_lisence_f();
         scheduleFragment = new fragment_schedule();
+        webviewFragment = new fragment_webview();
 
         getSupportFragmentManager().beginTransaction().replace(R.id.container, mainFragment).commit();
         BottomNavigationView bottom_menu = findViewById(R.id.bottom_menu);

@@ -5,13 +5,14 @@
       <map>
         <entry key="..\:/Users/LG/AndroidStudioProjects/MARS_VR_1/app/src/main/res/drawable/round.xml" value="0.1" />
         <entry key="..\:/Users/LG/AndroidStudioProjects/MARS_VR_1/app/src/main/res/layout/activity_main.xml" value="0.25364583333333335" />
-        <entry key="..\:/Users/LG/AndroidStudioProjects/MARS_VR_1/app/src/main/res/layout/activity_start.xml" value="0.1" />
+        <entry key="..\:/Users/LG/AndroidStudioProjects/MARS_VR_1/app/src/main/res/layout/activity_start.xml" value="0.2" />
         <entry key="..\:/Users/LG/AndroidStudioProjects/MARS_VR_1/app/src/main/res/layout/fragment_lisence.xml" value="0.2" />
         <entry key="..\:/Users/LG/AndroidStudioProjects/MARS_VR_1/app/src/main/res/layout/fragment_lisence_f.xml" value="0.18659420289855072" />
         <entry key="..\:/Users/LG/AndroidStudioProjects/MARS_VR_1/app/src/main/res/layout/fragment_main.xml" value="0.25364583333333335" />
         <entry key="..\:/Users/LG/AndroidStudioProjects/MARS_VR_1/app/src/main/res/layout/fragment_mypage.xml" value="0.25364583333333335" />
         <entry key="..\:/Users/LG/AndroidStudioProjects/MARS_VR_1/app/src/main/res/layout/fragment_record.xml" value="0.25364583333333335" />
         <entry key="..\:/Users/LG/AndroidStudioProjects/MARS_VR_1/app/src/main/res/layout/fragment_schedule.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/LG/AndroidStudioProjects/MARS_VR_1/app/src/main/res/layout/fragment_webview.xml" value="0.25364583333333335" />
         <entry key="..\:/Users/LG/AndroidStudioProjects/MARS_VR_1/app/src/main/res/menu/bottom_menu.xml" value="0.25364583333333335" />
       </map>
     </option>

@@ -24,12 +24,9 @@ public class fragment_lisence extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_lisence, null);
+        View view = inflater.inflate(R.layout.fragment_webview, null);
         Button wbutton = (Button)view.findViewById(R.id.button_write);
         Button sbutton = (Button)view.findViewById(R.id.button_skill);
-        ImageButton button1 = (ImageButton)view.findViewById(R.id.Button1);
-        ImageButton button2 = (ImageButton)view.findViewById(R.id.Button2);
-        ImageButton similar_button = (ImageButton)view.findViewById(R.id.similar_button);
 
         wbutton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -39,27 +36,6 @@ public class fragment_lisence extends Fragment {
         });
 
         sbutton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v){
-                Toast.makeText(getActivity(), "준비중입니다.", Toast.LENGTH_SHORT).show();
-            }
-        });
-
-        button1.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v){
-                ((MainActivity)getActivity()).replaceFragment(fragment_lisence_f.newInstance());
-            }
-        });
-
-        button2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v){
-                Toast.makeText(getActivity(), "준비중입니다.", Toast.LENGTH_SHORT).show();
-            }
-        });
-
-        similar_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
                 Toast.makeText(getActivity(), "준비중입니다.", Toast.LENGTH_SHORT).show();
