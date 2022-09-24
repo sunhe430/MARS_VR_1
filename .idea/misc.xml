@@ -4,7 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/LG/AndroidStudioProjects/MARS_VR_1/app/src/main/res/drawable/round.xml" value="0.1" />
+        <entry key="..\:/Users/LG/AndroidStudioProjects/MARS_VR_1/app/src/main/res/layout/activity_login.xml" value="0.2390625" />
         <entry key="..\:/Users/LG/AndroidStudioProjects/MARS_VR_1/app/src/main/res/layout/activity_main.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/LG/AndroidStudioProjects/MARS_VR_1/app/src/main/res/layout/activity_register.xml" value="0.25364583333333335" />
         <entry key="..\:/Users/LG/AndroidStudioProjects/MARS_VR_1/app/src/main/res/layout/activity_start.xml" value="0.2" />
         <entry key="..\:/Users/LG/AndroidStudioProjects/MARS_VR_1/app/src/main/res/layout/fragment_lisence.xml" value="0.2" />
         <entry key="..\:/Users/LG/AndroidStudioProjects/MARS_VR_1/app/src/main/res/layout/fragment_lisence_f.xml" value="0.18659420289855072" />
