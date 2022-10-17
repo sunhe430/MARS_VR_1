@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.example.mars1.LoginActivity;
+import com.example.Login.LoginActivity;
 import com.example.mars1.R;
 
 public class FirstActivity extends Activity {

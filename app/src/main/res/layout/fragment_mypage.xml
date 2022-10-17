@@ -2,220 +2,154 @@
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/mypage_toolbar"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="20dp"
-        android:background="#d9d4f8"
-        app:contentInsetEnd="0dp"
-        app:contentInsetStart="0dp"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        app:layout_constraintTop_toBottomOf="@id/mypage_toolbar"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginBottom="80dp"
-        app:layout_constraintVertical_weight="1" >
-
-        <LinearLayout
+        <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:layout_height="350dp"
+            android:background="#E1DFF2">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="318dp"
+                android:layout_height="210dp"
+                android:layout_gravity="start"
+                app:srcCompat="@drawable/circle2" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="195dp"
+                android:layout_height="273dp"
+                android:layout_gravity="start"
+                app:srcCompat="@drawable/circle1" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="bottom"
+                app:srcCompat="@drawable/cat" />
+
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="160dp"
+                android:layout_marginBottom="10dp"
+                android:text="user"
+                android:fontFamily="monospace"
+                android:textColor="#523173"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/edit_btn"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="end|bottom"
+                android:layout_margin="20dp"
+                android:scaleType="fitXY"
+                android:background="#00000000"
+                app:srcCompat="@drawable/edit" />
+        </FrameLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="190dp"
-                android:background="#D9D4F8"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#F1F1F1"
                 android:orientation="vertical"
                 android:padding="10dp">
 
                 <TextView
-                    android:layout_width="match_parent"
+                    android:layout_width="270dp"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_marginTop="40dp"
+                    android:background="@drawable/round"
                     android:gravity="center"
-                    android:text="user123"
-                    android:textColor="@color/white"
-                    android:textSize="28dp" />
+                    android:paddingHorizontal="50dp"
+                    android:paddingVertical="5dp"
+                    android:fontFamily="monospace"
+                    android:text="Record"
+                    android:textSize="35sp" />
 
-                <ImageView
-                    android:layout_width="wrap_content"
+                <TextView
+                    android:id="@+id/record"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    app:srcCompat="@drawable/cat" />
-
+                    android:layout_marginTop="10dp"
+                    android:padding="5dp"
+                    android:text="- 기록이 없습니다."
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
 
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/mypage_llInfo"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:orientation="vertical" >
-
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content" >
-
-                    <TextView
-                        android:layout_width="110dp"
-                        android:layout_height="30dp"
-                        android:gravity="center_vertical"
-                        android:text="category"
-                        android:textColor="@color/purple_500"
-                        android:textSize="15dp"
-                        android:textStyle="bold" />
-                </RelativeLayout>
-
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content" >
-
-                    <CheckBox
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginTop="10dp"
-                        android:text="조주기능사"
-                        android:textSize="20dp" />
-                </RelativeLayout>
-
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content" >
-
-                    <CheckBox
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:text="제과제빵사"
-                        android:textSize="20dp" />
-                </RelativeLayout>
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="500dp"
+                android:layout_marginTop="20dp"
+                android:background="#F1F1F1"
                 android:orientation="vertical"
-                android:layout_marginStart="10dp"
-                android:layout_marginEnd="10dp">
+                android:padding="10dp">
 
-                <LinearLayout
+                <TextView
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/round"
+                    android:gravity="center"
+                    android:paddingHorizontal="50dp"
+                    android:paddingVertical="5dp"
+                    android:fontFamily="monospace"
+                    android:text="license"
+                    android:textSize="35sp" />
+
+                <TextView
+                    android:id="@+id/license_list"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:padding="10dp"
-                    android:background="#F1F1F1">
+                    android:layout_marginTop="10dp"
+                    android:padding="5dp"
+                    android:text="- 보유 자격증이 없습니다."
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
 
-                    <Button
-                        android:layout_width="110dp"
-                        android:layout_height="30dp"
-                        android:background="@drawable/round"
-                        android:text="Record" />
-
-                    <View
-                        android:layout_width="match_parent"
-                        android:layout_height="15dp"/>
-
-                    <TextView
-                        android:id="@+id/mypage_univAuth"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:padding="5dp"
-                        android:text="● [2022.07.12] 조주기능사 / 05:56 / 1위 "
-                        android:textColor="@color/black"
-                        android:textSize="16sp" />
-
-                    <View
-                        android:layout_width="match_parent"
-                        android:layout_height="15dp"/>
-
-                    <TextView
-                        android:id="@+id/mypage_chNick"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:padding="5dp"
-                        android:text="● [2022.07.13] 조주기능사  / 06:21 / 13위 "
-                        android:textColor="@color/black"
-                        android:textSize="16sp" />
-
-                    <View
-                        android:layout_width="match_parent"
-                        android:layout_height="15dp"/>
-
-                    <TextView
-                        android:id="@+id/mypage_chPW"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:padding="5dp"
-                        android:text="● [2022.07.16] 제과제빵사  / 12:56 / 20위 "
-                        android:textColor="@color/black"
-                        android:textSize="16sp" />
-
-                </LinearLayout>
-
-                <View
+                <HorizontalScrollView
                     android:layout_width="match_parent"
-                    android:layout_height="20dp"/>
+                    android:layout_height="match_parent">
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:background="#F1F1F1"
-                    android:padding="10dp">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginVertical="30dp">
 
-                    <Button
-                        android:layout_width="110dp"
-                        android:layout_height="30dp"
-                        android:background="@drawable/round"
-                        android:text="Certificate" />
+                        <ImageView
+                            android:id="@+id/license"
+                            android:layout_width="600dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_marginHorizontal="80dp"
+                            android:scaleType="fitXY"
+                            android:visibility="visible"
+                            app:srcCompat="@drawable/empty" />
 
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:padding="5dp">
-
-                        <Button
+                        <ImageView
+                            android:id="@+id/license2"
                             android:layout_width="wrap_content"
-                            android:layout_height="match_parent"
-                            android:layout_alignParentStart="true"
-                            android:layout_alignParentEnd="true"
-                            android:layout_centerVertical="true"
-                            android:layout_gravity="center"
-                            android:layout_marginHorizontal="50dp"
-                            android:background="@drawable/certificate3"
-                            android:textColor="@color/black" />
-
-                    </RelativeLayout>
-
-
-                </LinearLayout>
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="80dp"
+                            android:scaleType="fitXY"
+                            android:visibility="invisible" />
+                    </LinearLayout>
+                </HorizontalScrollView>
 
             </LinearLayout>
 
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:layout_margin="30dp"
-                android:background="@drawable/round"
-                android:letterSpacing="0.4"
-                android:text="option"
-                android:textColor="@color/white"
-                android:textSize="20sp" />
-
-        </LinearLayout>
-    </ScrollView>
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -8,88 +8,93 @@
     tools:context=".fragment_main">
 
     <TextView
+        android:id="@+id/mUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:textColor="#302858"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="환영합니다." />
+
+    <TextView
         android:id="@+id/textView8"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="30dp"
         android:textColor="#302858"
         android:textSize="30sp"
         android:textStyle="bold"
-        android:text="자격증 정보 확인하기" />
+        android:text="자격증 시험 접수 및 일정 확인" />
 
     <HorizontalScrollView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="10dp">
+        android:layout_marginLeft="20dp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:layout_marginVertical="15dp">
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="370dp"
+                android:layout_height="170dp"
+                android:layout_marginRight="10dp"
+                android:scaleType="fitXY"
+                android:background="@android:color/transparent"
+                android:src="@drawable/test" />
 
             <ImageButton
                 android:id="@+id/imageButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_width="370dp"
+                android:layout_height="170dp"
                 android:layout_marginRight="10dp"
+                android:scaleType="fitXY"
                 android:background="@android:color/transparent"
                 android:src="@drawable/bartender_info" />
 
             <ImageButton
                 android:id="@+id/imageButton2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_width="370dp"
+                android:layout_height="170dp"
+                android:scaleType="fitXY"
                 android:background="@android:color/transparent"
                 android:src="@drawable/baker_info" />
 
         </LinearLayout>
     </HorizontalScrollView>
 
-    <FrameLayout
+    <TextView
+        android:id="@+id/webType"
         android:layout_width="match_parent"
-        android:layout_height="210dp"
-        android:layout_marginHorizontal="20dp"
-        android:layout_marginTop="70dp"
-        android:background="@drawable/round_lightpurple">
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="#302858"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:text="시험 접수페이지" />
 
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="15dp"
-            android:text="자격증 시험 일정"
-            android:textColor="#302858"
-            android:textSize="30sp"
-            android:textStyle="bold" />
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:progressDrawable="@drawable/progressbar"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="10dp"/>
 
-        <Button
-            android:id="@+id/button_write"
-            android:layout_width="100dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="100dp"
-            android:backgroundTint="#ABA7CC"
-            android:text="필기" />
-
-        <Button
-            android:id="@+id/button_skill"
-            android:layout_width="100dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="150dp"
-            android:backgroundTint="#ABA7CC"
-            android:text="실기" />
-
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical"
-            android:layout_marginLeft="250dp"
-            android:src="@drawable/calendar_img" />
-    </FrameLayout>
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginBottom="70dp"/>
 
 </LinearLayout>

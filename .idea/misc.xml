@@ -3,18 +3,32 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/LG/AndroidStudioProjects/MARS_VR_1/app/src/main/res/drawable/bin_round.xml" value="0.151" />
+        <entry key="..\:/Users/LG/AndroidStudioProjects/MARS_VR_1/app/src/main/res/drawable/circle.xml" value="0.246" />
+        <entry key="..\:/Users/LG/AndroidStudioProjects/MARS_VR_1/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.151" />
+        <entry key="..\:/Users/LG/AndroidStudioProjects/MARS_VR_1/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.221" />
+        <entry key="..\:/Users/LG/AndroidStudioProjects/MARS_VR_1/app/src/main/res/drawable/lisence_square.xml" value="0.151" />
+        <entry key="..\:/Users/LG/AndroidStudioProjects/MARS_VR_1/app/src/main/res/drawable/menu_selector_color.xml" value="0.151" />
+        <entry key="..\:/Users/LG/AndroidStudioProjects/MARS_VR_1/app/src/main/res/drawable/rank_view.xml" value="0.152" />
         <entry key="..\:/Users/LG/AndroidStudioProjects/MARS_VR_1/app/src/main/res/drawable/round.xml" value="0.1" />
+        <entry key="..\:/Users/LG/AndroidStudioProjects/MARS_VR_1/app/src/main/res/drawable/round_lightpurple.xml" value="0.151" />
         <entry key="..\:/Users/LG/AndroidStudioProjects/MARS_VR_1/app/src/main/res/layout/activity_login.xml" value="0.2390625" />
         <entry key="..\:/Users/LG/AndroidStudioProjects/MARS_VR_1/app/src/main/res/layout/activity_main.xml" value="0.25364583333333335" />
         <entry key="..\:/Users/LG/AndroidStudioProjects/MARS_VR_1/app/src/main/res/layout/activity_register.xml" value="0.25364583333333335" />
         <entry key="..\:/Users/LG/AndroidStudioProjects/MARS_VR_1/app/src/main/res/layout/activity_start.xml" value="0.2" />
+        <entry key="..\:/Users/LG/AndroidStudioProjects/MARS_VR_1/app/src/main/res/layout/adsf.xml" value="0.20217588395285585" />
+        <entry key="..\:/Users/LG/AndroidStudioProjects/MARS_VR_1/app/src/main/res/layout/fragment_edit.xml" value="0.264" />
+        <entry key="..\:/Users/LG/AndroidStudioProjects/MARS_VR_1/app/src/main/res/layout/fragment_feedback.xml" value="0.264" />
         <entry key="..\:/Users/LG/AndroidStudioProjects/MARS_VR_1/app/src/main/res/layout/fragment_lisence.xml" value="0.2" />
         <entry key="..\:/Users/LG/AndroidStudioProjects/MARS_VR_1/app/src/main/res/layout/fragment_lisence_f.xml" value="0.18659420289855072" />
         <entry key="..\:/Users/LG/AndroidStudioProjects/MARS_VR_1/app/src/main/res/layout/fragment_main.xml" value="0.25364583333333335" />
-        <entry key="..\:/Users/LG/AndroidStudioProjects/MARS_VR_1/app/src/main/res/layout/fragment_mypage.xml" value="0.25364583333333335" />
-        <entry key="..\:/Users/LG/AndroidStudioProjects/MARS_VR_1/app/src/main/res/layout/fragment_record.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/LG/AndroidStudioProjects/MARS_VR_1/app/src/main/res/layout/fragment_mypage.xml" value="0.264" />
+        <entry key="..\:/Users/LG/AndroidStudioProjects/MARS_VR_1/app/src/main/res/layout/fragment_ranking.xml" value="0.264" />
+        <entry key="..\:/Users/LG/AndroidStudioProjects/MARS_VR_1/app/src/main/res/layout/fragment_ranking2.xml" value="0.264" />
+        <entry key="..\:/Users/LG/AndroidStudioProjects/MARS_VR_1/app/src/main/res/layout/fragment_record.xml" value="0.2" />
         <entry key="..\:/Users/LG/AndroidStudioProjects/MARS_VR_1/app/src/main/res/layout/fragment_schedule.xml" value="0.25364583333333335" />
         <entry key="..\:/Users/LG/AndroidStudioProjects/MARS_VR_1/app/src/main/res/layout/fragment_webview.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/LG/AndroidStudioProjects/MARS_VR_1/app/src/main/res/layout/ranking_item.xml" value="0.264" />
         <entry key="..\:/Users/LG/AndroidStudioProjects/MARS_VR_1/app/src/main/res/menu/bottom_menu.xml" value="0.25364583333333335" />
       </map>
     </option>

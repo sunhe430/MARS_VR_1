@@ -6,7 +6,7 @@ import retrofit2.http.POST;
 
 public interface SignUpApi {
     @POST("/register")
-    Call<SignUpRequest> SignUpPost(
+    Call<SignUpResponse> SignUpPost(
             @Body SignUpRequest posts
     );
 }
